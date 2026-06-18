@@ -56,7 +56,9 @@ def parse_srt(file_path):
             "latitude": latitude,
             "longitude": longitude,
             "rel_alt": rel_alt,
-            "abs_alt": abs_alt
+            "abs_alt": abs_alt,
+            #"pitch": pitch,
+            #"yaw": yaw
         })
 
     return telemetry_data
